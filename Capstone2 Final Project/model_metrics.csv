@@ -1,0 +1,28 @@
+item_type,item_name,value
+model,model_name,Gradient Boosting
+model,train_test_split,"70% train, 30% test, shuffle=False (time-based split)"
+feature,features_used,"Open, High, Low, Close, Adj Close, Volume, MA7, MA14, MA30, Volatility7, Volatility14, Volatility30, Return1, Return3, Return5, Return10, Lag1, Lag2, Lag3, High_Low_Spread, Open_Close_Spread"
+hyperparameter,ccp_alpha,0.0
+hyperparameter,criterion,friedman_mse
+hyperparameter,init,
+hyperparameter,learning_rate,0.05
+hyperparameter,loss,log_loss
+hyperparameter,max_depth,3
+hyperparameter,max_features,
+hyperparameter,max_leaf_nodes,
+hyperparameter,min_impurity_decrease,0.0
+hyperparameter,min_samples_leaf,1
+hyperparameter,min_samples_split,2
+hyperparameter,min_weight_fraction_leaf,0.0
+hyperparameter,n_estimators,150
+hyperparameter,n_iter_no_change,
+hyperparameter,random_state,42
+hyperparameter,subsample,1.0
+hyperparameter,tol,0.0001
+hyperparameter,validation_fraction,0.1
+hyperparameter,verbose,0
+hyperparameter,warm_start,False
+metric,accuracy,0.5181072555205047
+metric,precision,0.5197645079899075
+metric,recall,0.7622101628021707
+metric,f1,0.618061806180618
